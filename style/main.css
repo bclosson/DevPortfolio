@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16;
+}
+
+/* NAV BAR */
+#nav-bar {
+    display: flex;
+    background-color: salmon;
+    padding: 5px;
+}
+
+/* MAIN CONTAINER/BACKGROUND */
+#main-back {
+    display: flex;
+    background-image: linear-gradient( whitesmoke, grey);
+    height: 100vh;
+}
+
