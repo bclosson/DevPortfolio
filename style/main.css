@@ -13,9 +13,18 @@
 }
 
 /* MAIN CONTAINER/BACKGROUND */
-#main-back {
+#background-container {
     display: flex;
-    background-image: linear-gradient( whitesmoke, grey);
     height: 100vh;
+    margin: 0 auto;  
 }
 
+#main-back {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right bottom, whitesmoke, grey, transparent 65%);
+}
+
+#main-front {
+    background-image: url("./images/tech-background3.jpeg");
+}
