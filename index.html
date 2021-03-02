@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script defer src="./script/app.js"></script>
     <title>Benjamin Closson</title>
 </head>
 <body>
@@ -38,7 +41,45 @@
                 </div>                     
             </div>                
         </div>
-    </main>
+        <!-- CONTACT MODAL -->
+        <button id="contactBtn">Contact Benjamin</button>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <form
+                id="contact"
+                action="https://formspree.io/f/xayllkzw"
+                method="POST"
+                >
+                <label>
+                    <input
+                    type="text"
+                    name="name"
+                    id="contact-input"
+                    placeholder="Name"
+                    />
+                    <input
+                    type="text"
+                    name="_replyto"
+                    id="contact-input"
+                    placeholder="Email"
+                    />
+                </label>
+                <label>
+                    <textarea
+                    name="message"
+                    id="text-area"
+                    placeholder="Message"
+                    ></textarea>
+                </label>
 
+                <!-- submit contact info button -->
+
+                <button type="submit" id="contact-button">Send</button>
+                </form>
+            </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
