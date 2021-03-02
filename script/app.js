@@ -1,6 +1,6 @@
 // CONTACT MODAL
 const modal = document.getElementById("myModal");
-const btn = document.getElementById("contactBtn");
+const btn = document.getElementById("contact-link");
 const span = document.getElementsByClassName("close")[0];
 
 // When user clicks on the button, open modal
