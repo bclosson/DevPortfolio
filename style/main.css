@@ -85,13 +85,33 @@
 
 /* PROJECTS SECTION */
 #project-main {
+    display: flex;
     background-image: linear-gradient( whitesmoke, rgb(97, 95, 95));
 }
 
-#projects {
+#projects-section{
+  position: relative;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: right;
+}
+
+#projects1 {
+    position: relative;
+    justify-content: flex-end;
     width: 40%;
     height: auto;
     margin: 5px;
+    padding: 5px;
+}
+
+#projects2 {
+    position: relative;
+    justify-content: flex-end;
+    width: 40%;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
 }
 
 img{
