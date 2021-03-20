@@ -84,8 +84,19 @@
 }
 
 /* PROJECTS SECTION */
+#project-main {
+    background-image: linear-gradient( whitesmoke, rgb(97, 95, 95));
+}
 
+#projects {
+    width: 40%;
+    height: auto;
+    margin: 5px;
+}
 
+img{
+    border-radius: 2%;
+}
 
 /* CONTACT MODAL */
 #contactBtn {
@@ -93,7 +104,7 @@
     background-color: #dcdcdd;
     height: 15vh;
     width: 40vw;
-    border-radius: 10px;
+    border-radius: 10%;
     box-shadow: 1px 1px #69849b;
     margin: 5% 30%;
 }
