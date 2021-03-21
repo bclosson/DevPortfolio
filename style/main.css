@@ -102,16 +102,17 @@
 #projects-section{
     position: relative;
     width: 100vw;
-    z-index: 1;
+    z-index: 0;
 }
 
 #projects1 {
     position: relative;
+    background-color: tomato;
     width: 30%;
     height: auto;
     margin: 1% 10% 1% 40%;
     padding: 5px;
-    z-index: 2;
+    z-index: 1;
 }
 
 #projects2 {
@@ -121,21 +122,19 @@
     height: auto;
     margin: 1% 40% 1% 20%;
     padding: 5px;
-    z-index: 2;
+    z-index: 1;
+}
+
+#app-p {
+    padding: 2px;
 }
 
 img{
     border-radius: 2%;
-    -webkit-transition-duration: 2s;
-    -moz-transition-duration: 2s;
-    -o-transform-duration: 2s;
-    transition-property: transform;
 }
 
 img:hover {
-    -webkit-transform: rotate(720deg);
-    -moz-transform: rotate(720deg);
-    -o-transform: rotate(720deg);
+ 
 }
 
 /* CONTACT MODAL */
