@@ -86,7 +86,7 @@
 /* PROJECTS SECTION */
 #nav-bar-p {
     display: flex;
-    background-image: linear-gradient( white, whitesmoke);
+    background-image: linear-gradient( white, rgb(235, 235, 235), hsl(0, 0%, 92%));
     width: 100vw;
     padding: 20px;
     text-decoration: none;
@@ -97,7 +97,6 @@
     position: relative;
     background-image: linear-gradient( whitesmoke, rgb(97, 95, 95));
     width: 100vw;
-    /* z-index: 0; */
 }
 
 #projects-section{
@@ -108,9 +107,9 @@
 
 #projects1 {
     position: relative;
-    width: 40%;
+    width: 30%;
     height: auto;
-    margin: 1% 10% 1% 50%;
+    margin: 1% 10% 1% 40%;
     padding: 5px;
     z-index: 2;
 }
@@ -118,15 +117,25 @@
 #projects2 {
     position: relative;
     justify-content: flex-end;
-    width: 40%;
+    width: 30%;
     height: auto;
-    margin: 0 auto;
+    margin: 1% 40% 1% 20%;
     padding: 5px;
     z-index: 2;
 }
 
 img{
     border-radius: 2%;
+    -webkit-transition-duration: 2s;
+    -moz-transition-duration: 2s;
+    -o-transform-duration: 2s;
+    transition-property: transform;
+}
+
+img:hover {
+    -webkit-transform: rotate(720deg);
+    -moz-transform: rotate(720deg);
+    -o-transform: rotate(720deg);
 }
 
 /* CONTACT MODAL */
